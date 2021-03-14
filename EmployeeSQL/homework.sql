@@ -32,7 +32,12 @@
 -- and last_name like 'B%'
 
 --6) List all employees in the Sales department, including their employee number, last name, first name, and department name.
-
+-- select d.emp_no as "Employee Number", e.last_name as "Last Name", e.first_name as "First Name",departments.dept_name as "Department Name"  from dept_emp as d
+-- inner join employees as e on
+-- d.emp_no = e.emp_no
+-- inner join departments on
+-- d.dept_no = departments.dept_no
+-- where dept_name = 'Sales'
 
 --7) List all employees in the Sales and Development departments, including their employee number, last name, first name, and department name.
 
