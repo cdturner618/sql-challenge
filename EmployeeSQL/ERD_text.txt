@@ -5,8 +5,8 @@ dept_name VARCHAR(30)
 
 dept_emp
 -
-emp_no INTEGER FK >- employees.emp_no
-dept_no varchar(30) FK -< departments.dept_no
+emp_no INTEGER FK - employees.emp_no
+dept_no varchar(30) FK >- departments.dept_no
 
 dept_manager
 -
